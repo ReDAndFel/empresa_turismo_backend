@@ -18,7 +18,7 @@ public class DatabaseTestService {
     @Test
     public void testDatabaseConnection() {
         try {
-            String sql = "SELECT COUNT(*) FROM EMPRESATURISMO.CLIENTE";
+            String sql = "SELECT COUNT(*) FROM CLIENTE";
             System.out.println("Query SQL: " + sql);
             int result = jdbcTemplate.queryForObject(sql, Integer.class);
 
