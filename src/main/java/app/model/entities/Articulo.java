@@ -33,4 +33,8 @@ public class Articulo {
     @Column(name = "PRECIO", nullable = false)
     private Double precio;
 
+    @NotNull
+    @Column(name = "CANTIDAD", nullable = false)
+    private Long cantidad;
+
 }

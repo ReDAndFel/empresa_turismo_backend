@@ -25,10 +25,6 @@ public class Detallereservaauto {
     private Reservaautomovil idreserva;
 
     @NotNull
-    @Column(name = "UNIDADES", nullable = false)
-    private Long unidades;
-
-    @NotNull
     @Column(name = "SEGURO", nullable = false)
     private Boolean seguro = false;
 

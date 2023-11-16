@@ -28,11 +28,7 @@ public class Politicascancelacionpaquete {
     private Boolean estado = false;
 
     @NotNull
-    @Column(name = "COSTOPORNOCHE", nullable = false)
-    private Double costopornoche;
-
-    @NotNull
-    @Column(name = "COSTOPORPERSONA", nullable = false)
-    private Double costoporpersona;
+    @Column(name = "COSTO", nullable = false)
+    private Double costo;
 
 }

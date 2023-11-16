@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.293s</div>
+<div class="counter">0.279s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,7 +79,7 @@
 </thead>
 <tr>
 <td class="success">testDatabaseConnection()</td>
-<td class="success">0.293s</td>
+<td class="success">0.279s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -87,14 +87,14 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>17:39:39.738 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [DatabaseTestService]: using SpringBootContextLoader
-17:39:39.743 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [app.DatabaseTestService]: no resource found for suffixes {-context.xml, Context.groovy}.
-17:39:39.743 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [app.DatabaseTestService]: DatabaseTestService does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-17:39:39.761 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using ContextCustomizers for test class [DatabaseTestService]: [DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, Customizer, ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer]
-17:39:39.817 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\Users\user\Documents\EmpresaTurismoBackend\build\classes\java\main\app\Application.class]
-17:39:39.819 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration app.Application for test class app.DatabaseTestService
-17:39:39.917 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners for test class [DatabaseTestService]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, TransactionalTestExecutionListener, SqlScriptsTestExecutionListener, EventPublishingTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener, ResetMocksTestExecutionListener]
-17:39:39.919 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: class [DatabaseTestService], class annotated with @DirtiesContext [false] with mode [null]
+<pre>10:43:07.383 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [DatabaseTestService]: using SpringBootContextLoader
+10:43:07.387 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [app.DatabaseTestService]: no resource found for suffixes {-context.xml, Context.groovy}.
+10:43:07.388 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [app.DatabaseTestService]: DatabaseTestService does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+10:43:07.408 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using ContextCustomizers for test class [DatabaseTestService]: [DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, Customizer, ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer]
+10:43:07.462 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\Users\user\Documents\EmpresaTurismoBackend\build\classes\java\main\app\Application.class]
+10:43:07.463 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration app.Application for test class app.DatabaseTestService
+10:43:07.560 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners for test class [DatabaseTestService]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, TransactionalTestExecutionListener, SqlScriptsTestExecutionListener, EventPublishingTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener, ResetMocksTestExecutionListener]
+10:43:07.561 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: class [DatabaseTestService], class annotated with @DirtiesContext [false] with mode [null]
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -104,21 +104,21 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v3.0.1)
 
-2023-11-10T17:39:40.137-05:00  INFO 13204 --- [    Test worker] app.DatabaseTestService                  : Starting DatabaseTestService using Java 17.0.6 with PID 13204 (started by user in C:\Users\user\Documents\EmpresaTurismoBackend)
-2023-11-10T17:39:40.138-05:00  INFO 13204 --- [    Test worker] app.DatabaseTestService                  : No active profile set, falling back to 1 default profile: &quot;default&quot;
-2023-11-10T17:39:40.615-05:00  INFO 13204 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2023-11-10T17:39:40.631-05:00  INFO 13204 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
-2023-11-10T17:39:40.997-05:00  INFO 13204 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2023-11-10T17:39:41.040-05:00  INFO 13204 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
-2023-11-10T17:39:41.179-05:00  WARN 13204 --- [    Test worker] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
-2023-11-10T17:39:41.284-05:00  INFO 13204 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2023-11-10T17:39:41.491-05:00  INFO 13204 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@54c11750
-2023-11-10T17:39:41.493-05:00  INFO 13204 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2023-11-10T17:39:41.518-05:00  INFO 13204 --- [    Test worker] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.OracleDialect
-2023-11-10T17:39:41.865-05:00  INFO 13204 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2023-11-10T17:39:41.876-05:00  INFO 13204 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2023-11-10T17:39:42.004-05:00  WARN 13204 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2023-11-10T17:39:42.307-05:00  INFO 13204 --- [    Test worker] app.DatabaseTestService                  : Started DatabaseTestService in 2.354 seconds (process running for 3.294)
+2023-11-16T10:43:07.785-05:00  INFO 15328 --- [    Test worker] app.DatabaseTestService                  : Starting DatabaseTestService using Java 17.0.6 with PID 15328 (started by user in C:\Users\user\Documents\EmpresaTurismoBackend)
+2023-11-16T10:43:07.786-05:00  INFO 15328 --- [    Test worker] app.DatabaseTestService                  : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2023-11-16T10:43:08.283-05:00  INFO 15328 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-16T10:43:08.297-05:00  INFO 15328 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+2023-11-16T10:43:08.680-05:00  INFO 15328 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-16T10:43:08.721-05:00  INFO 15328 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-11-16T10:43:08.866-05:00  WARN 15328 --- [    Test worker] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-11-16T10:43:08.972-05:00  INFO 15328 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-16T10:43:09.186-05:00  INFO 15328 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@6a5dd083
+2023-11-16T10:43:09.188-05:00  INFO 15328 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-16T10:43:09.214-05:00  INFO 15328 --- [    Test worker] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.OracleDialect
+2023-11-16T10:43:09.573-05:00  INFO 15328 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-16T10:43:09.583-05:00  INFO 15328 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-16T10:43:09.707-05:00  WARN 15328 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-16T10:43:10.011-05:00  INFO 15328 --- [    Test worker] app.DatabaseTestService                  : Started DatabaseTestService in 2.415 seconds (process running for 3.385)
 Query SQL: SELECT COUNT(*) FROM CLIENTE
 Número de usuarios: 25
 </pre>
@@ -132,7 +132,7 @@ Número de usuarios: 25
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 7.5.1</a> at 10/11/2023, 5:39:42 p. m.</p>
+<a href="http://www.gradle.org">Gradle 7.5.1</a> at 16/11/2023, 10:43:10 a. m.</p>
 </div>
 </div>
 </body>

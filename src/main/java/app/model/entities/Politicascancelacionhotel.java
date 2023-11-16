@@ -24,12 +24,8 @@ public class Politicascancelacionhotel {
     private Long diasdiferenciamax;
 
     @NotNull
-    @Column(name = "COSTOPORNOCHE", nullable = false)
-    private Double costopornoche;
-
-    @NotNull
-    @Column(name = "COSTOPORPERSONA", nullable = false)
-    private Double costoporpersona;
+    @Column(name = "COSTO", nullable = false)
+    private Double costo;
 
     @NotNull
     @Column(name = "ESTADO", nullable = false)
